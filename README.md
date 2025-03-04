@@ -45,5 +45,7 @@ spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
 
 4️⃣ Run the Application
+
 mvn spring-boot:run
+
 The application will start on http://localhost:8080.
