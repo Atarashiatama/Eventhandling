@@ -39,10 +39,10 @@ spring.datasource.password=your-password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
-4️⃣ Run the Application
-mvn spring-boot:run
-The application will start on http://localhost:8080.
-
 🗂️ Database Schema
 
 <img width="505" alt="schema" src="https://github.com/user-attachments/assets/6e32bc4a-6ad5-40ba-b453-4030c6ef43a9" />
+
+4️⃣ Run the Application
+mvn spring-boot:run
+The application will start on http://localhost:8080.
