@@ -1,33 +1,14 @@
 # Event Handling System  
 
 ## 📌 Project Overview  
-The **Event Handling System** is a Spring Boot-based project designed to manage events and users efficiently. It integrates **PostgreSQL** as the database and leverages **JPA/Hibernate** for ORM (Object-Relational Mapping).  
+The **Event Handling System** is a Spring Boot-based project designed to manage events and users efficiently. 
+It integrates **PostgreSQL** as the database and leverages **JPA/Hibernate** for ORM (Object-Relational Mapping).  
 
 ## 📂 Project Structure  
 EventHandling/
-│-- src/
-│   ├── main/
-│   │   ├── java/com/eventhandling/
-│   │   │   ├── entity/                 # Contains JPA entity classes
-│   │   │   │   ├── Events.java
-│   │   │   │   ├── Userdb.java
-│   │   │   ├── repository/             # Repository interfaces for database access
-│   │   │   │   ├── EventRepository.java
-│   │   │   │   ├── UserRepository.java
-│   │   │   ├── config/                 # Database and application configurations
-│   │   │   │   ├── DatabaseConfig.java  # Optional configuration class
-│   │   │   ├── EventHandlingApplication.java  # Main entry point for Spring Boot
-│   │   
-│   ├── resources/
-│   │   ├── application.properties  # Database configuration properties
-│   │   ├── schema.sql              # SQL script to create database tables
-│
-│-- pom.xml                         # Maven dependencies and project setup
-│-- README.md                       # Project documentation
 
-markdown
-Copy
-Edit
+<img width="621" alt="Screen Shot 2025-03-04 at 18 13 38" src="https://github.com/user-attachments/assets/999d7e5b-793e-421e-b9b1-d6da53f36419" />
+
 
 ## 🛠️ Tech Stack  
 - **Java** (JDK 17 or later)  
@@ -62,5 +43,6 @@ mvn spring-boot:run
 The application will start on http://localhost:8080.
 
 🗂️ Database Schema
-<img width="505" alt="Screen Shot 2025-03-04 at 17 53 22" src="https://github.com/user-attachments/assets/eaedf1bc-446b-4bd3-aefa-749e7b83a90b" />
+<img width="505" alt="schema" src="https://github.com/user-attachments/assets/6e32bc4a-6ad5-40ba-b453-4030c6ef43a9" />
+
 
